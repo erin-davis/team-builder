@@ -11,7 +11,7 @@ function App() {
       firstName: "Merle",
       lastName: "Highchurch",
       email: "xtremepan.tastic@bob.org",
-      role: "The Peacemaker",
+      role: {},
       body:`Merle Hitower Highchurch is a player character in The Balance Arc campaign controlled by Clint McElroy.
        He is a beach dwarf cleric and former mercenary soldier with a neutral good alignment who enjoys long walks on the beach.`
     }

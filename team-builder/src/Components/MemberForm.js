@@ -35,7 +35,7 @@ const MemberForm = props =>{
       type="text"
       placeholder="First Name"
       name="first"
-      value={member.firstName}
+    //  value={member.firstName}
       onChange={formChange}
       />
       <label htmlFor="last name">Last Name: </label>
@@ -44,7 +44,7 @@ const MemberForm = props =>{
       type="text"
       placeholder="Last Name"
       name="last"
-      value={member.lastName}
+    //  value={member.lastName}
       onChange={formChange}
       />
       <label htmlFor="e-mail">E-mail: </label>
