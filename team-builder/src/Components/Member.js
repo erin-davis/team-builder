@@ -9,6 +9,7 @@ const Member = props =>{
           <p>E-mail: {member.email}</p>
           {/*<p>Role: {member.role.value}</p>*/}
           <p>Self description: {member.body}</p>
+          {console.log(member)}
         </div>
       ))}
     </div>

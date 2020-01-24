@@ -17,7 +17,6 @@ const MemberForm = props =>{
 
   const submitForm = e =>{
     e.preventDefault();
-    props.addNewMember(member);
     setMember({
       firstName: "",
       lastName: "",
@@ -25,6 +24,7 @@ const MemberForm = props =>{
       role: "",
       body: ""
     });
+    props.addNewMember(member);
   };
 
   return (
@@ -34,7 +34,7 @@ const MemberForm = props =>{
       id="first name"
       type="text"
       placeholder="First Name"
-      name="first"
+      name="firstName"
     //  value={member.firstName}
       onChange={formChange}
       />
@@ -43,7 +43,7 @@ const MemberForm = props =>{
       id="last name"
       type="text"
       placeholder="Last Name"
-      name="last"
+      name="lastName"
     //  value={member.lastName}
       onChange={formChange}
       />
